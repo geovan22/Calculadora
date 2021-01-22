@@ -33,6 +33,10 @@ namespace Caluladora5toDiver
             {
                 lblres.Text = (op.Resta(double.Parse(txtv1.Text), double.Parse(txtv2.Text))).ToString();
             }
+            else if(cbxOperacion.Text == "Multiplicación")
+            {
+                lblres.Text = (op.Mult(double.Parse(txtv1.Text), double.Parse(txtv2.Text))).ToString();
+            }
         }
     }
 }
