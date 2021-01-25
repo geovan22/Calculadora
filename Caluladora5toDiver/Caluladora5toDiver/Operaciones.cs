@@ -31,5 +31,10 @@ namespace Caluladora5toDiver
         {
             return a / b;
         }
+        
+         public double Rad(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
