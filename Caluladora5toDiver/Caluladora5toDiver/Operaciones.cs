@@ -26,5 +26,10 @@ namespace Caluladora5toDiver
         {
             return a / b;
         }
+
+        public double Pot(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
